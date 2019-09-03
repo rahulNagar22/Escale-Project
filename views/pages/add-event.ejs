@@ -1,0 +1,38 @@
+<h2> ----------===-->>>ADD NEW ITEM<<<--====----------</h3>
+<div class="row" style="margin-left:50px;margin-right:50px">
+<form action="http://localhost:4000/event/add" method="post" class="col s12">
+<input type="hidden" name="id" value="">
+<div class="form-group row">
+<label for="name" class="col-2 col-form-label">name</label>
+<div class="col-10">
+<input type="text" name="name" value="" class="form-control">
+</div>
+</div>
+<br>
+
+<div class="form-group row">
+<label for="description" class="col-2 col-form-label">description</label>
+<div class="col-10">
+<textarea name="description"
+id="description"
+cols="30"
+rows="4" class="form-control"></textarea>
+</div>
+</div>
+<br>
+
+<div class="form-group">
+<label for="mob_no" class="col-md-3 control-label">Image Url</label>
+<div class="col-sm-9">
+<input class="form-control" type="file" name="url" accept=""/>
+</div>
+</div>  
+<br>
+
+<div class="form-group row">
+<label for="id" class="col-2 col-form-label">click to save item</label><br>
+<div class="col-10">
+<input type="submit" name="submit" value="save item" class="btn btn-primary btn-lg">
+</div>
+</div>
+</form>
